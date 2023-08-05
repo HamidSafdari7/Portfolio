@@ -1,0 +1,410 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Hamid Safdari | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+    <style>
+      #hero {
+        background-image: url('assets/hero-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      .p-clr{
+        color: #e60f4f;
+      }
+      .m-clr{
+        color: #0690b9;
+      }
+      .b-clr{
+        color: #2b7ecc;
+        font-weight: bold;
+      }
+    </style>
+
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+
+      <div class="container">
+        <h1 class="hero-title load-hidden" style="color: white;">
+          Hi, my name is <span class="text-color-main">Hamid Safdari</span>
+          <br />
+          I'm a Full-Stack Developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Hire ME</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text" style="color: whitesmoke;">
+                Looking for a full-stack developer who can bring your projects to life?<br>
+                Look no further! I'm the developer you've been searching for.<br><br>
+                With a deep understanding of <span class="b-clr">JavaScript</span> (I prefer to work with React and Node Js),<br> <span class="b-clr">PHP</span> (If I'm going to use PHP I prefer to use Laravel 10)<br> and working with different <span class="b-clr">Databases</span> (I worked with "MySQL", "Postgresql" and "MongoDB"),<br> I have the skills and experience to tackle any project.<br><br>
+
+                I'm passionate about creating clean, efficient code and always up for a challenge. Whether it's building an intuitive user interface or optimizing database performance, I have the knowledge and expertise to get the job done right.<br><br>
+
+                What sets me apart is my commitment to staying up-to-date with the latest technologies and trends in the industry. I'm always looking for new ways to improve my skills and enhance my work.<br><br>
+
+                So if you're ready to bring your ideas to life with speed, precision, and creativity, I'm ready to take on any challenge and deliver exceptional results every time. Let's work together to make your vision a reality!<br><br>
+              </p>
+              <p class="about-wrapper__info-text">
+                <span class="b-clr">I'm the owner of "HS7Developing" Brand, so if you see any projects or
+                  website by this brand, they were developed by me!😉😎
+                </span>
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Jobify</h3>
+                <div>
+                  <p class="mb-4">
+                    A fully responsive website, where You can add your jobs as an "Employer" or
+                    You can find your dream job as an "Employee". I used <span class="p-clr">"React"</span> and <span class="p-clr">"Node JS"</span> for developing it,
+                    I also used <span class="p-clr">"Mongo Db"</span> for it's data base.
+                    Hope You Enjoy It 😉
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://hs7-jobify.onrender.com"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/HamidSafdari7/jobify"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://hs7-jobify.onrender.com" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/cover.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Smart Brain</h3>
+                <div>
+                  <p class="mb-4">
+                    A Website where you can put your images and only by one click
+                    it will recognize the faces in the image.<br>
+                    I used <span class="p-clr">"React"</span> and <span class="p-clr">"Node Js"</span> for developing this website
+                    and Data will save in a <span class="p-clr">"Postgres DB"</span>.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://hs7-smartbrain.onrender.com"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/HamidSafdari7/Smart-Brain"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://hs7-smartbrain.onrender.com" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/sbrain.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Real Estate 🏡</h3>
+                <div>
+                  <p class="mb-4">
+                    This Website is useful for Real Estates.<br>
+                    You can buy or sell or even rent properties and houses.
+                    The best benefit of using this website is that it has an <span class="m-clr">"Admin Panel"</span>
+                    which you can controll everything on this website<span class="m-clr">(like: add agents and edit them, change the accessibility of each agent, add or delete properties and lots of other things you can imagin...)</span><br>
+                    Another cool amazing thing about this website is have a <span class="m-clr">"Real Time Chat"</span> which users can chat
+                    dynamically with agents. How cool is that...😅<br>
+                    At the end I've to say I used <span class="p-clr">"Laravel 10"</span> & <span class="p-clr">"MySQL"</span> + <span class="p-clr">"JavaScript"</span>
+                    for developing it.<br>
+                    Hope You Enjoy It.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://hs7-realestate.iran.liara.run/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/HamidSafdari7/Real-Estate"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://hs7-realestate.iran.liara.run/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/realestate.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robo Friends🤖</h3>
+                <div>
+                  <p class="mb-4">
+                    Do You Want To Have Some Robots??!!
+                    They Look Forward To Seeing You And Showing How Simply You Can Create Robo-Cards Only By using Pure
+                    <span class="p-clr">"React"</span>.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://hamidsafdari7.github.io/Robo-Friends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/HamidSafdari7/Robo-Friends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://hamidsafdari7.github.io/Robo-Friends/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/robofriends.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:hs7developing@gmail.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/HamidSafdari7" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Hamid Safdari(HS7)</a
+          >
+        </p>
+
+        
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
