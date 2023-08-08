@@ -116,16 +116,30 @@
                   website by this brand, they were developed by me!😉😎
                 </span>
               </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
-                </a>
+              <span class="d-flex flex-row">
+                <span class="d-flex mt-3 p-2">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--resume"
+                    href="assets/resume.pdf"
+                  >
+                    View Resume
+                  </a>
+                </span>
+                
+                <span class="d-flex mt-3 p-2">
+                  <a
+                    rel="noreferrer"
+                    class="cta-btn cta-btn--resume"
+                    href="#bottom"
+                    onclick="scrollToBottom()"
+                  >
+                    Contact Me!
+                  </a>
+                </span>
               </span>
+              
             </div>
           </div>
         </div>
@@ -379,7 +393,7 @@
 
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
-      <div class="container">
+      <div class="container" id="bottom">
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
@@ -390,6 +404,9 @@
           </a>
           <a rel="noreferrer" href="https://github.com/HamidSafdari7" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="mailto:hs7developing@gmail.com" target="_blank">
+            <i class="fa fa-envelope fa-inverse"></i>
           </a>
         </div>
 
@@ -406,5 +423,12 @@
         
 
     <script defer type="module" src="index.js"></script>
+
+    <script>
+      function scrollToBottom() {
+      const element = document.getElementById('bottom');
+      element.scrollIntoView({ behavior: 'smooth' });
+      }
+    </script>
   </body>
 </html>
